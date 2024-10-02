@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.box-container{
+    height: 500px;
+    width: 360px;
+    background: white;
+    margin: 70px;
+    margin-top: 70px;
+    border-radius: 15px;
+    box-shadow: 10px 15px;
+}
+
+.info {
+    margin: 15px;
+    margin-left: 18px;
+    width: 300px;
+}
+.info svg{
+    border-radius: 18px;
+}
+.info button{
+    border: none;
+    background-color:hsl(47, 88%, 63%);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 1rem 0px;
+    padding: 0.5rem 1rem;
+}
+.p1{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 7%);
+}
+.info h3{
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.p2{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.imgGreg{
+    display: flex; 
+    margin-top: 20px;
+}
+.imgGreg img{
+    width: 40px;
+    height: 40px;
+}
+.imgGreg h4{
+    margin: 10px;
+}
+
+
+@media only screen and (max-width:770px){
+    .box-container{
+        width: 320px;
+        margin: 70px;
+        margin-top: 60px;
+        box-shadow: 10px 13px;
+    }
+    .info {
+        margin: 13px;
+        margin-left: 13px;
+        width: 290px;
+    }
+    .info svg{
+        width: 290px;
+        border-radius: 25px;
+    }
+
+}
